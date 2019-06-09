@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //演示
         TextView textView=new TextView(this,null);
+        //合并代码
         //新控件 输入框
         EditText editText=new EditText(this,null);
         //创建新控件
