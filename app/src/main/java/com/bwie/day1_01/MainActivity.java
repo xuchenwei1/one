@@ -2,6 +2,7 @@ package com.bwie.day1_01;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //演示
         TextView textView=new TextView(this,null);
+        //创建新控件
+        Button button=new Button(this,null);
     }
 }
